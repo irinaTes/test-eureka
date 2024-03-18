@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../Elements/Header';
+import Header from '../../ui-elements/Header';
 
 const Layout = ({ children }) => {
     return (

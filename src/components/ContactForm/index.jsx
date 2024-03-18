@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './ContactForm.module.css'
-import InputField from '../../Elements/Input';
-import Button from '../../Elements/Button';
+import InputField from '../../ui-elements/Input';
+import Button from '../../ui-elements/Button';
 
 const ContactForm = () => {
     const [inputValue, setInputValue] = useState({ email: "", phoneNumber: "", name: "" });
