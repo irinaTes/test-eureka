@@ -1,0 +1,14 @@
+.contactForm {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 44px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactForm {
+        width: 100%
+    }
+    
+}

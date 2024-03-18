@@ -1,0 +1,19 @@
+.inputWraper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputLabel {
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    top: -25px;
+}
+
+.inputField {
+    height: 43px;
+    border: 1px solid #DEDEDE;
+    border-radius: 9px;
+    padding-inline-start: 10px;
+}

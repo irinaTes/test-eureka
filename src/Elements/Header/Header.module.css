@@ -1,0 +1,42 @@
+.headerWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+.header {
+    height: 121px;
+    background-color: #058B8C;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    margin-left: 76px;
+}
+
+.subHeader {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 24px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    position: absolute;
+    width: calc(100% - 10%);
+    bottom: -25px;
+    right: 0px;
+}
+.subHeader > span {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        margin-left: 20px;
+    }
+}
